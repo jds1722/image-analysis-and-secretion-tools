@@ -1,0 +1,31 @@
+.venv/
+.tools/
+__pycache__/
+*.py[cod]
+
+# Local editor settings
+.vscode/
+
+# Runtime logs and temporary previews
+*.log
+outputs/*.png
+outputs/*.csv
+outputs/.bead_preview_*.png
+outputs/.halo_preview_display.png
+outputs/.preview_display.png
+outputs/.bead_preview_measurements.csv
+
+# Generated analysis artifacts
+outputs/bead_measurements_test/
+outputs/bead_previews/
+outputs/bead_previews_center_only_test/
+outputs/bead_previews_test/
+outputs/gui_runs/
+outputs/halo_masked_test/
+outputs/halo_masked_zero_test/
+outputs/halo_previews/
+outputs/halo_preview_test/
+outputs/halo_preview_zero_test/
+
+# Large microscopy inputs
+work/

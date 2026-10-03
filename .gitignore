@@ -2,6 +2,7 @@
 *.py[cod]
 **/.venv/
 **/venv/
+/Secretion-model/
 .env
 .env.*
 !.env.example
